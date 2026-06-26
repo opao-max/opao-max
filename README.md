@@ -1,24 +1,17 @@
-## Hi, I'm opao-max 👋
+### 刘嘉欣 · AI Engineer
 
-AI Engineer focused on Agent systems, browser automation, and LLM infrastructure.
+Building Agent systems that understand web pages, execute code safely, and automate real work.
 
-### What I Build
+---
 
-- **[ChromeAI](https://github.com/opao-max/ChromeAI)** — AI browser assistant with page understanding pipeline (AX Tree → Ref Bridge → Computer Actions) and agent safety infrastructure
-- **[LocalBox](https://github.com/opao-max/LocalBox)** — E2B-compatible local sandbox gateway with pluggable multi-backend architecture (Docker / OrbStack / Apple Container)
+**ChromeAI** — AI browser assistant. Accessibility Tree → Ref Bridge → annotated screenshots → 13 computer actions with coordinate/ref dual-path execution. Agent safety layer with permission management, navigation isolation, and context auto-compaction for long-running agent loops.
 
-### Tech Stack
+**LocalBox** — Local sandbox gateway compatible with E2B API. Pluggable multi-backend (Docker Engine API / OrbStack JSON-RPC over UDS / Apple Container XPC via CGo). 70+ endpoints, state reconciliation on restart, zero CLI forking.
 
-`Agent Systems` `MCP Protocol` `RAG` `LLM Fine-tuning` `Model Distillation`
-`Go` `TypeScript` `Python` `React` `Chrome Extension` `Docker`
+**lark-wiki-migrate** · **wiki-cross-tenant** — Feishu enterprise wiki migration tools. Block API BFS layer-by-layer transfer with batch failure auto-degradation. Copy Node API cross-tenant incremental sync with bitable async replication race handling. Replaced a ¥1M+ vendor solution.
 
-### Experience
+---
 
-- **CVTE** — AI Agent Platform R&D Intern (ChatData Agent Platform, Friday CLI, Feishu Migration Tools)
-- **G60 Research Institute** — LLM Algorithm Intern (Vision-Language Model distillation & edge deployment)
-- **iFLYTEK** — LLM Application Intern (ChromeAI browser assistant)
+`Go` `TypeScript` `Python` `React` `Chrome Extension` `MCP` `RAG` `LLM Fine-tuning` `Docker`
 
-### Connect
-
-- Email: 2709255936@qq.com
-- Location: Xi'an, China
+[Email](mailto:2709255936@qq.com) · [GitHub](https://github.com/opao-max)
